@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := su
 LOCAL_SRC_FILES := su.c db.c activity.cpp
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_C_INCLUDES += external/sqlite/dist
 
